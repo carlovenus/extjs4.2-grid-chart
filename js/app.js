@@ -1,7 +1,7 @@
 Ext.application({
     name: 'Sample',
     appFolder: rootUrl + 'js',
-    controllers : ['Monitor'],
+    controllers : ['Sample.controller.Monitor'],
     launch : function() {
         Ext.create('Ext.container.Viewport', {
             layout: 'hbox',
